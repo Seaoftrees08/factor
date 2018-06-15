@@ -5,3 +5,10 @@ C:\Users\N18073\source\repos\factor\factor\obj\Debug\factor.csprojResolveAssembl
 C:\Users\N18073\source\repos\factor\factor\obj\Debug\factor.csproj.CoreCompileInputs.cache
 C:\Users\N18073\source\repos\factor\factor\obj\Debug\factor.exe
 C:\Users\N18073\source\repos\factor\factor\obj\Debug\factor.pdb
+C:\Users\N18073\source\repos\factor\factor\factor\bin\Debug\factor.exe.config
+C:\Users\N18073\source\repos\factor\factor\factor\bin\Debug\factor.exe
+C:\Users\N18073\source\repos\factor\factor\factor\bin\Debug\factor.pdb
+C:\Users\N18073\source\repos\factor\factor\factor\obj\Debug\factor.csprojResolveAssemblyReference.cache
+C:\Users\N18073\source\repos\factor\factor\factor\obj\Debug\factor.csproj.CoreCompileInputs.cache
+C:\Users\N18073\source\repos\factor\factor\factor\obj\Debug\factor.exe
+C:\Users\N18073\source\repos\factor\factor\factor\obj\Debug\factor.pdb

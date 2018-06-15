@@ -12,17 +12,36 @@ namespace factor
 
         public BigInteger SqrtInt(BigInteger n)
         {
-            BigInteger root = RoughEstimate(n)+1;
-            while (root * root < n) root++;
+
+            string s = n.ToString();
+            BigInteger l = s.Length;
+            BigInteger root = RoughEstimate(n, s, l)+1;
+            int resolutionPower = (int)(l >> 5);
+            BigInteger resolution = BigInteger.Pow(32,resolutionPower);
+            
+            while (root * root < n)
+            {
+                root += resolution;
+                if(root*root > n)
+                {
+                    if (resolutionPower != 0)
+                    {
+                        resolutionPower--;
+                        resolution = BigInteger.Pow(32, resolutionPower);
+                    }
+                    else
+                    {
+
+                    }
+                }
+            }
             if (root * root > n) root--;
             return root;
         }
 
-        private BigInteger RoughEstimate(BigInteger n)
+        private BigInteger RoughEstimate(BigInteger n,string s, BigInteger l)
         {
             BigInteger result = 0;
-            string s = n.ToString();
-            BigInteger l = s.Length;
             int caldig = 1;
 
             if (l % 2 == 0) caldig = 2;
